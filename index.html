@@ -1,1 +1,135 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Software Engineer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header>
+        <div class="hero-content">
+            <img src="assets/profile.jpg" alt="Profile Photo" class="profile-img">
+            <h1>John Doe</h1>
+            <h2>Software Engineer</h2>
+            <p>MS in Computer Science @ Carnegie Mellon University</p>
+            <div class="cta-buttons">
+                <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 关于部分 -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Passionate software engineer with 2+ years of experience building scalable systems. 
+            Strong expertise in Java, Python, and distributed systems. 
+            Former intern at Google and Amazon. Open to full-time SDE roles starting 2024.
+        </p>
+    </section>
+
+    <!-- 经历部分 -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Amazon Web Services</h3>
+            <p class="subtitle">Software Development Engineer Intern | Summer 2023</p>
+            <ul>
+                <li>Optimized DynamoDB query latency by 15% using adaptive caching</li>
+                <li>Implemented a distributed logging service with AWS Lambda</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Google</h3>
+            <p class="subtitle">Engineering Practicum Intern | Summer 2022</p>
+            <ul>
+                <li>Developed a CI/CD pipeline for Android Auto team</li>
+                <li>Reduced test flakiness by 30% through metric analysis</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 项目部分 -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Distributed Key-Value Store</h3>
+                <p>Implemented a Raft consensus algorithm in Go with 99.9% fault tolerance</p>
+                <a href="https://github.com/yourusername/kvstore" target="_blank">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Auto-Grading System</h3>
+                <p>Python-based system for grading programming assignments using AST analysis</p>
+                <a href="https://github.com/yourusername/autograder" target="_blank">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能部分 -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Java (Proficient)</li>
+                    <li>Python (Proficient)</li>
+                    <li>JavaScript/TypeScript</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>React</li>
+                    <li>TensorFlow</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Tools</h3>
+                <ul>
+                    <li>AWS</li>
+                    <li>Docker/Kubernetes</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-links">
+            <a href="mailto:john.doe@example.com" class="contact-item">
+                <span>📧 john.doe@example.com</span>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-item">
+                <span>🔗 LinkedIn</span>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" class="contact-item">
+                <span>💻 GitHub</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
